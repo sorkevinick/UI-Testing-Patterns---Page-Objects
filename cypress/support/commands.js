@@ -33,3 +33,11 @@ Cypress.Commands.add('login', (email, senha) => {
     loginPage.login(email, senha)
 
 })
+
+Cypress.Commands.add('checkout', () => {
+    cy.get('[data-testid="productDetails"]').first(1).click()
+    cy.get('[data-testid="addToCart"]').click()
+    cy.get('[data-testid="selectAddressOrContinueToPayment"]').click()
+    cy.get('[data-testid="completeCheckout"]').click()
+
+})
