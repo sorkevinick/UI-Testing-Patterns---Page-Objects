@@ -1,0 +1,316 @@
+{
+  "browserName": "electron",
+  "browserPath": "",
+  "browserVersion": "118.0.5993.159",
+  "config": {
+    "baseUrl": "http://lojaebac.ebaconline.art.br/",
+    "projectRoot": "C:\\Users\\4Code\\Desktop\\ebac\\UI-Testing-Patterns---Page-Objects",
+    "projectName": "UI-Testing-Patterns---Page-Objects",
+    "configFile": "cypress.config.js",
+    "isTextTerminal": true,
+    "animationDistanceThreshold": 5,
+    "arch": "x64",
+    "blockHosts": null,
+    "chromeWebSecurity": true,
+    "clientCertificates": [],
+    "defaultCommandTimeout": 4000,
+    "downloadsFolder": "C:\\Users\\4Code\\Desktop\\ebac\\UI-Testing-Patterns---Page-Objects\\cypress\\downloads",
+    "env": {},
+    "execTimeout": 60000,
+    "experimentalCspAllowList": false,
+    "experimentalFetchPolyfill": false,
+    "experimentalInteractiveRunEvents": false,
+    "experimentalRunAllSpecs": false,
+    "experimentalMemoryManagement": false,
+    "experimentalModifyObstructiveThirdPartyCode": false,
+    "experimentalSkipDomainInjection": null,
+    "experimentalOriginDependencies": false,
+    "experimentalSourceRewriting": false,
+    "experimentalSingleTabRunMode": false,
+    "experimentalStudio": false,
+    "experimentalWebKitSupport": false,
+    "fileServerFolder": "C:\\Users\\4Code\\Desktop\\ebac\\UI-Testing-Patterns---Page-Objects",
+    "fixturesFolder": "C:\\Users\\4Code\\Desktop\\ebac\\UI-Testing-Patterns---Page-Objects\\cypress\\fixtures",
+    "excludeSpecPattern": "*.hot-update.js",
+    "includeShadowDom": false,
+    "keystrokeDelay": 0,
+    "modifyObstructiveCode": true,
+    "numTestsKeptInMemory": 0,
+    "platform": "win32",
+    "pageLoadTimeout": 60000,
+    "port": 60445,
+    "projectId": null,
+    "redirectionLimit": 20,
+    "reporter": "spec",
+    "reporterOptions": null,
+    "requestTimeout": 5000,
+    "resolvedNodePath": "C:\\Program Files\\nodejs\\node.exe",
+    "resolvedNodeVersion": "18.17.1",
+    "responseTimeout": 30000,
+    "retries": {
+      "runMode": 0,
+      "openMode": 0
+    },
+    "screenshotOnRunFailure": true,
+    "screenshotsFolder": "C:\\Users\\4Code\\Desktop\\ebac\\UI-Testing-Patterns---Page-Objects\\cypress\\screenshots",
+    "slowTestThreshold": 10000,
+    "scrollBehavior": "top",
+    "supportFile": "C:\\Users\\4Code\\Desktop\\ebac\\UI-Testing-Patterns---Page-Objects\\cypress\\support\\e2e.js",
+    "taskTimeout": 60000,
+    "testIsolation": true,
+    "trashAssetsBeforeRuns": true,
+    "userAgent": null,
+    "video": false,
+    "videoCompression": false,
+    "videosFolder": "C:\\Users\\4Code\\Desktop\\ebac\\UI-Testing-Patterns---Page-Objects\\cypress\\videos",
+    "viewportHeight": 660,
+    "viewportWidth": 1000,
+    "waitForAnimations": true,
+    "watchForFileChanges": false,
+    "specPattern": "cypress/e2e/**/*.cy.{js,jsx,ts,tsx}",
+    "browsers": [
+      {
+        "channel": "stable",
+        "displayName": "Chrome",
+        "family": "chromium",
+        "majorVersion": "128",
+        "name": "chrome",
+        "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+        "version": "128.0.6613.114"
+      },
+      {
+        "channel": "stable",
+        "displayName": "Edge",
+        "family": "chromium",
+        "majorVersion": "128",
+        "name": "edge",
+        "path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+        "version": "128.0.2739.54"
+      },
+      {
+        "channel": "stable",
+        "displayName": "Electron",
+        "family": "chromium",
+        "majorVersion": 118,
+        "name": "electron",
+        "path": "",
+        "version": "118.0.5993.159"
+      }
+    ],
+    "cypressBinaryRoot": "C:\\Users\\4Code\\AppData\\Local\\Cypress\\Cache\\13.6.6\\Cypress\\resources\\app",
+    "hosts": null,
+    "isInteractive": true,
+    "version": "13.6.6",
+    "testingType": "e2e",
+    "browser": null,
+    "cypressInternalEnv": "production"
+  },
+  "cypressVersion": "13.6.6",
+  "endedTestsAt": "2024-09-04T17:06:16.819Z",
+  "osName": "win32",
+  "osVersion": "10.0.22631",
+  "runs": [
+    {
+      "error": null,
+      "reporter": "spec",
+      "reporterStats": {
+        "suites": 1,
+        "tests": 1,
+        "passes": 0,
+        "pending": 0,
+        "failures": 1,
+        "start": "2024-09-04T17:05:47.168Z",
+        "end": "2024-09-04T17:05:57.044Z",
+        "duration": 9876
+      },
+      "screenshots": [
+        {
+          "height": 720,
+          "name": null,
+          "path": "C:\\Users\\4Code\\Desktop\\ebac\\UI-Testing-Patterns---Page-Objects\\cypress\\screenshots\\appActionsTest.cy.js\\Teste de Autenticação -- Deve fazer o checkout (failed).png",
+          "takenAt": "2024-09-04T17:05:56.744Z",
+          "width": 1280
+        }
+      ],
+      "spec": {
+        "absolute": "C:/Users/4Code/Desktop/ebac/UI-Testing-Patterns---Page-Objects/cypress/e2e/appActionsTest.cy.js",
+        "fileExtension": ".js",
+        "fileName": "appActionsTest",
+        "name": "appActionsTest.cy.js",
+        "relative": "cypress\\e2e\\appActionsTest.cy.js"
+      },
+      "stats": {
+        "duration": 9878,
+        "endedAt": "2024-09-04T17:05:57.040Z",
+        "failures": 1,
+        "passes": 0,
+        "pending": 0,
+        "skipped": 0,
+        "startedAt": "2024-09-04T17:05:47.162Z",
+        "suites": 1,
+        "tests": 1
+      },
+      "tests": [
+        {
+          "attempts": [
+            {
+              "state": "failed"
+            }
+          ],
+          "displayError": "CypressError: Timed out retrying after 4050ms: `cy.click()` failed because this element:\n\n`<div aria-disabled=\"true\" tabindex=\"-1\" class=\"css-175oi2r r-1i6wzkk r-lrvibr r-1awozwy r-1kihuf0 r-1llaxt6 r-ur6pnr r-1777fci r-u9wvl5 r-1j7aebl r-12vffkv\" data-testid=\"selectAddressOrContinueToPayment\" style=\"background-color: rgb(128, 128, 128); transition-duration: 0s;\">...</div>`\n\nhas CSS `pointer-events: none`\n\n`pointer-events: none` prevents user mouse interaction.\n\nFix this problem, or use {force: true} to disable error checking.\n\nhttps://on.cypress.io/element-cannot-be-interacted-with\n    at ensureElDoesNotHaveCSS (http://lojaebac.ebaconline.art.br/__cypress/runner/cypress_runner.js:111888:66)\n    at ensureDescendents (http://lojaebac.ebaconline.art.br/__cypress/runner/cypress_runner.js:111996:5)\n    at ensureDescendentsAndScroll (http://lojaebac.ebaconline.art.br/__cypress/runner/cypress_runner.js:112004:14)\n    at ensureElIsNotCovered (http://lojaebac.ebaconline.art.br/__cypress/runner/cypress_runner.js:112135:5)\n    at runAllChecks (http://lojaebac.ebaconline.art.br/__cypress/runner/cypress_runner.js:112334:52)\n    at retryActionability (http://lojaebac.ebaconline.art.br/__cypress/runner/cypress_runner.js:112371:16)\n    at tryCatcher (http://lojaebac.ebaconline.art.br/__cypress/runner/cypress_runner.js:1807:23)\n    at Promise.attempt.Promise.try (http://lojaebac.ebaconline.art.br/__cypress/runner/cypress_runner.js:4315:29)\n    at whenStable (http://lojaebac.ebaconline.art.br/__cypress/runner/cypress_runner.js:143918:68)\n    at <unknown> (http://lojaebac.ebaconline.art.br/__cypress/runner/cypress_runner.js:143859:14)\n    at tryCatcher (http://lojaebac.ebaconline.art.br/__cypress/runner/cypress_runner.js:1807:23)\n    at Promise._settlePromiseFromHandler (http://lojaebac.ebaconline.art.br/__cypress/runner/cypress_runner.js:1519:31)\n    at Promise._settlePromise (http://lojaebac.ebaconline.art.br/__cypress/runner/cypress_runner.js:1576:18)\n    at Promise._settlePromise0 (http://lojaebac.ebaconline.art.br/__cypress/runner/cypress_runner.js:1621:10)\n    at Promise._settlePromises (http://lojaebac.ebaconline.art.br/__cypress/runner/cypress_runner.js:1701:18)\n    at Promise._fulfill (http://lojaebac.ebaconline.art.br/__cypress/runner/cypress_runner.js:1645:18)\n    at <unknown> (http://lojaebac.ebaconline.art.br/__cypress/runner/cypress_runner.js:5450:46)\nFrom Your Spec Code:\n    at Context.eval (webpack://cy-pageobjects/./cypress/e2e/appActionsTest.cy.js:15:63)",
+          "duration": 9812,
+          "state": "failed",
+          "title": [
+            "Teste de Autenticação",
+            "Deve fazer o checkout"
+          ]
+        }
+      ],
+      "video": null
+    },
+    {
+      "error": null,
+      "reporter": "spec",
+      "reporterStats": {
+        "suites": 1,
+        "tests": 3,
+        "passes": 3,
+        "pending": 0,
+        "failures": 0,
+        "start": "2024-09-04T17:05:58.819Z",
+        "end": "2024-09-04T17:06:06.654Z",
+        "duration": 7835
+      },
+      "screenshots": [],
+      "spec": {
+        "absolute": "C:/Users/4Code/Desktop/ebac/UI-Testing-Patterns---Page-Objects/cypress/e2e/intercept.cy.js",
+        "fileExtension": ".js",
+        "fileName": "intercept",
+        "name": "intercept.cy.js",
+        "relative": "cypress\\e2e\\intercept.cy.js"
+      },
+      "stats": {
+        "duration": 7836,
+        "endedAt": "2024-09-04T17:06:06.650Z",
+        "failures": 0,
+        "passes": 3,
+        "pending": 0,
+        "skipped": 0,
+        "startedAt": "2024-09-04T17:05:58.814Z",
+        "suites": 1,
+        "tests": 3
+      },
+      "tests": [
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 4673,
+          "state": "passed",
+          "title": [
+            "Teste de Autenticação",
+            "shoes should be visible"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 1567,
+          "state": "passed",
+          "title": [
+            "Teste de Autenticação",
+            "shoes should be empty"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 1576,
+          "state": "passed",
+          "title": [
+            "Teste de Autenticação",
+            "categories should be empty with error"
+          ]
+        }
+      ],
+      "video": null
+    },
+    {
+      "error": null,
+      "reporter": "spec",
+      "reporterStats": {
+        "suites": 1,
+        "tests": 1,
+        "passes": 0,
+        "pending": 0,
+        "failures": 1,
+        "start": "2024-09-04T17:06:08.385Z",
+        "end": "2024-09-04T17:06:16.823Z",
+        "duration": 8438
+      },
+      "screenshots": [
+        {
+          "height": 720,
+          "name": null,
+          "path": "C:\\Users\\4Code\\Desktop\\ebac\\UI-Testing-Patterns---Page-Objects\\cypress\\screenshots\\pageObjectsTest.cy.js\\Teste de Autenticação -- Deve fazer o cadastro com sucesso (failed).png",
+          "takenAt": "2024-09-04T17:06:16.641Z",
+          "width": 1280
+        }
+      ],
+      "spec": {
+        "absolute": "C:/Users/4Code/Desktop/ebac/UI-Testing-Patterns---Page-Objects/cypress/e2e/pageObjectsTest.cy.js",
+        "fileExtension": ".js",
+        "fileName": "pageObjectsTest",
+        "name": "pageObjectsTest.cy.js",
+        "relative": "cypress\\e2e\\pageObjectsTest.cy.js"
+      },
+      "stats": {
+        "duration": 8441,
+        "endedAt": "2024-09-04T17:06:16.819Z",
+        "failures": 1,
+        "passes": 0,
+        "pending": 0,
+        "skipped": 0,
+        "startedAt": "2024-09-04T17:06:08.378Z",
+        "suites": 1,
+        "tests": 1
+      },
+      "tests": [
+        {
+          "attempts": [
+            {
+              "state": "failed"
+            }
+          ],
+          "displayError": "CypressError: Timed out retrying after 4050ms: `cy.click()` failed because this element is not visible:\n\n`<a href=\"/Tab/Account\" dir=\"auto\" role=\"link\" class=\"css-146c3p1 r-6koalj r-1awozwy r-13awgt0 r-18u37iz r-1777fci r-1loqt21\" style=\"background-color: rgba(0, 0, 0, 0);\">...</a>`\n\nThis element `<a.css-146c3p1.r-6koalj.r-1awozwy.r-13awgt0.r-18u37iz.r-1777fci.r-1loqt21>` is not visible because its parent `<div.css-175oi2r.r-5kkj8d.r-1p0dtai.r-1d2f490.r-zchlnj.r-105ug2t>` has CSS property: `display: none`\n\nFix this problem, or use `{force: true}` to disable error checking.\n\nhttps://on.cypress.io/element-cannot-be-interacted-with\n    at runVisibilityCheck (http://lojaebac.ebaconline.art.br/__cypress/runner/cypress_runner.js:145130:58)\n    at Object.isStrictlyVisible (http://lojaebac.ebaconline.art.br/__cypress/runner/cypress_runner.js:145144:10)\n    at runAllChecks (http://lojaebac.ebaconline.art.br/__cypress/runner/cypress_runner.js:112303:26)\n    at retryActionability (http://lojaebac.ebaconline.art.br/__cypress/runner/cypress_runner.js:112371:16)\n    at tryCatcher (http://lojaebac.ebaconline.art.br/__cypress/runner/cypress_runner.js:1807:23)\n    at Promise.attempt.Promise.try (http://lojaebac.ebaconline.art.br/__cypress/runner/cypress_runner.js:4315:29)\n    at whenStable (http://lojaebac.ebaconline.art.br/__cypress/runner/cypress_runner.js:143918:68)\n    at <unknown> (http://lojaebac.ebaconline.art.br/__cypress/runner/cypress_runner.js:143859:14)\n    at tryCatcher (http://lojaebac.ebaconline.art.br/__cypress/runner/cypress_runner.js:1807:23)\n    at Promise._settlePromiseFromHandler (http://lojaebac.ebaconline.art.br/__cypress/runner/cypress_runner.js:1519:31)\n    at Promise._settlePromise (http://lojaebac.ebaconline.art.br/__cypress/runner/cypress_runner.js:1576:18)\n    at Promise._settlePromise0 (http://lojaebac.ebaconline.art.br/__cypress/runner/cypress_runner.js:1621:10)\n    at Promise._settlePromises (http://lojaebac.ebaconline.art.br/__cypress/runner/cypress_runner.js:1701:18)\n    at Promise._fulfill (http://lojaebac.ebaconline.art.br/__cypress/runner/cypress_runner.js:1645:18)\n    at <unknown> (http://lojaebac.ebaconline.art.br/__cypress/runner/cypress_runner.js:5450:46)\nFrom Your Spec Code:\n    at Object.openMenu (webpack://cy-pageobjects/./cypress/support/pages/home.page.js:3:47)\n    at Context.eval (webpack://cy-pageobjects/./cypress/e2e/pageObjectsTest.cy.js:14:13)",
+          "duration": 8391,
+          "state": "failed",
+          "title": [
+            "Teste de Autenticação",
+            "Deve fazer o cadastro com sucesso"
+          ]
+        }
+      ],
+      "video": null
+    }
+  ],
+  "startedTestsAt": "2024-09-04T17:05:47.162Z",
+  "totalDuration": 26155,
+  "totalFailed": 2,
+  "totalPassed": 3,
+  "totalPending": 0,
+  "totalSkipped": 0,
+  "totalSuites": 3,
+  "totalTests": 5
+}
