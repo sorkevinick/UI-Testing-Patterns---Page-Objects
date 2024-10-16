@@ -20,6 +20,8 @@ jobs:
 
     # Install dependencies
     - run: npm install
+    
+    - run: npm start
 
     # Run Cypress tests
     - name: Run Cypress Tests
